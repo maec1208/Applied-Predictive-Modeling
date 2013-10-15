@@ -1,480 +1,957 @@
 索引
+
 计算类词汇
+
 Alternative Cutoffs（可选界值）, 438–439
+
 Between–Model comparisons（模型间比较）, 87–89
+
 Bioconductor（项目）, 552
+
 Bootstrap（Bootstrap法）, 415
+
 Case Studies（案例研究）
+
 Alzheimer’s Disease（阿兹海默病）, 511–518
+
 Cars（Cars数据集）, 56–58
+
 Cell Segmentation（细胞分割）, 51–56, 480–484
+
 German Credit（German Credit数据集）, 85–89
+
 Grant Applications（拨款申请）, 308–326, 359–366, 400–411, 415–417
+
 Insurance Policies（保险契约）, 435–442
+
 Job Scheduling（作业调度）, 457–460
+
 Solubility（溶解度）, 128–136, 162–168, 213–218, 478–480, 541–542
+
 Class Probabilities（类别概率）, 563
+
 Collinearity（共线性）, 311
+
 Comprehensive R Archive
+
 Network (CRAN)（R综合典藏网）, 551–553
+
 Confusion Matrix（混淆矩阵）, 51, 268
+
 Cost–Sensitive Training（代价敏感训练）, 440–442
+
 Creating dummy variables（创建虚拟变量）, 56–58
+
 Data Splitting（数据分裂）, 81–82
+
 Event Prevalence（事件普遍度）, 269
+
 Extrapolation（外推）, 541–542
+
 Feature Selection（特征选择）
+
 Backward（向后~）, 511–513
+
 Filter Methods（过滤法~）, 516–518
+
 Forward（向前~）, 511–513
+
 Recursive Feature Elimination（递归特征移除）, 513–516
+
 Stepwise（逐步~）, 511–513
+
 Filtering（特征过滤）
+
 High correlation（高相关~）, 55–56
+
 Near zero variance（近零方差~）, 55
+
 Flexible Discriminant Analysis（柔性判别分析）,362
+
 Imputation（插补）, 54
+
 K–Nearest Neighbors（K-近邻）
+
 Classification（~分类）, 83, 364–365
+
 Regression（~回归）, 168
+
 Linear Discriminant Analysis（线性判别分析）, 318–320
+
 Logistic Regression（Logistic回归）, 87–89, 312–318
+
 Model Tuning（模型调优）, 84–87
+
 Multivariate Adaptive Regression Splines(MARS) Regression（多远自适应回归（MARS）回归）, 163–166
+
 Na¨ıve Bayes（朴素贝叶斯）, 365–366
+
 Near–Zero Variance Predictors（近零方差的预测变量）, 310
+
 Nearest Shrunken Centroids（最近质心收缩法）, 324–326
+
 Negative Predicted Value（负例预测概率）, 268
+
 Neural Networks（神经网络）
+
 Classification（~分类）, 360–361
+
 Regression（~回归）, 162–163
+
 Nonlinear Discriminant Analysis（非线性判别分析）, 359–360
+
 Object–Oriented Programming（面向对象编程）, 560
+
 Ordinary Least Squares Regression（普通最小二乘回归）, 128–132
+
 Partial Least Squares（偏最小二乘）
+
 Classification（~分类）, 320–321
+
 Regression（~回归）, 133–134
+
 Penalized Classification Models（惩罚因子分类模型） 
+
 Linear Discriminant Analysis（线性判别分析）, 323
+
 Logistic Regression（Logistic回归）, 322–323
+
 Penalized Regression Models（惩罚因子回归模型）
+
 Elastic Net（弹性网络）, 136
+
 lasso, 135–136
+
 Ridge Regression（岭回归）, 134–135
+
 Positive Predicted Value（正例预测概率）, 268
+
 predict, 84
+
 Predictor Importance（变量重要性）
+
 Categorical Outcomes（类别型输出结果）, 480–483
+
 Model–Based Importance Scores（基于模型的重要性得分）, 483–484
+
 Numeric Outcomes（数值型输出结果）, 478–480
+
 R Packages（R包）
+
 AppliedPredictiveModeling, viii, 51, 81, 89, 128, 236,266, 309, 481, 485, 511,562
+
 C50, 328, 404, 441
+
 CORElearn, 481
+
 Cubist, 217
+
 DMwR, 439
+
 DWD, 435
+
 Design, 87
+
 Hmisc, 237
+
 MASS, 52, 83, 130, 134, 266,318, 359, 512, 563
+
 RWeka, 214, 215, 403, 406,563, 564
+
 caTools, 563
+
 caret, 51, 53–56, 81–85, 99,130, 162, 168, 237, 240,266, 268, 364, 439, 479,483, 512, 513, 516–518,563
+
 corrplot, 51, 55
+
 ctv, 553
+
 desirability, 243
+
 e1071, 51, 52, 84, 87, 166, 365
+
 earth, 163, 362
+
 elasticnet, 134
+
 foreach, 563
+
 gbm, 216, 271, 409, 563
+
 glmnet, 135, 322
+
 impute, 54
+
 ipred, 83, 84, 87, 215, 408
+
 kernlab, 166, 363, 440
+
 klaR, 266, 273, 359, 365, 512
+
 lars, 135
+
 lattice, 51, 52, 271, 479
+
 leaps, 512
+
 mda, 359, 362, 563
+
 minerva, 479
+
 nnet, 161, 162, 360, 563
+
 pROC, 266, 269, 318, 438, 481
+
 pamr, 324
+
 partykit, 214, 404
+
 party, 212, 215, 216
+
 pls, 133, 320
+
 randomForest, 215, 216, 266,408, 484
+
 rms, 314
+
 rpart, 212, 402, 441, 553
+
 rrcov, 359
+
 sparseLDA, 323
+
 stats, 478, 482, 511, 563
+
 subselect, 311
+
 R Programming Language（R编程语言）
+
 S3 methods（S3方法）, 561
+
 S4 methods（S4方法）, 561
+
 character values（字符型取值）, 555
+
 classes（类）, 560
+
 data frames（数据框）, 559
+
 factors（因子）, 556
+
 functions（函数）, 561
+
 lists（列表）, 557
+
 logical values（逻辑型取值）, 554
+
 matrices（矩阵）, 558
+
 methods（方法）, 560
+
 numeric values（数值型取值）, 554
+
 packages（包）, 552
+
 vectors（向量）, 555
+
 Receiver Operating Characteristic(ROC) Curve（接受者操作特征曲线）, 269–270
+
 Relevance Vector Machines（相关向量机）, 168
+
 Resampling（重抽样）, 82–83
+
 Residuals（残差）, 131, 132
+
 Restricted Cubic Splines（限制性立方样条）, 314–315
+
 Robust Least Squares Regression（稳健最小二乘回归）,
+
 132–133
+
 RSiteSearch, 51
+
 Sampling Methods（抽样方法）, 439
+
 Sensitivity（敏感度）, 268
+
 Specificity（特异度）, 268
+
 Specifying Models（指定模型）
+
 Formula interface（公式接口）, 83
+
 Non-formula interface,（非公式接口） 83
+
 Support Vector Machines（支持向量机）, 84–87
+
 Classification（~分类）, 363–364
+
 Regression（~回归）, 166–168
+
 Support Vectors（支持向量）, 168
+
 Transformations（变换）
+
 Box–Cox（Box-Cox~）, 52–53
+
 PCA（主成分~）, 53–54
+
 Spatial Sign（空间标尺~）, 54
+
 Tree–Based Models（基于树的模型）
-Bagged Trees（装袋决策树）, 215, 408
-Boosted Trees（助推决策树）, 216–217,409–411
+
+Bagged Trees（Bagged树）, 215, 408
+
+Boosted Trees（Boosted树）, 216–217,409–411
+
 Classification Trees（分类树）,402–405
+
 Cubist（Cubist决策树）, 217–218
+
 Model Trees（模型树）, 214–215
+
 Random Forest（随机森林）, 215–216,
+
 408–409
+
 Regression Trees（回归树）, 212–214
+
 Rules（规则）, 406–408
 
 一般词汇
-∈-Insensitive Regression（∈-不敏感回归）, 151
-Active Learning（主动学习）, 226
-Additive Models（可加模型）, 148, 150–152,205, 285, 338, 341, 342,421
-Akaike Information Criterion（AIC准则）, 493
-Alzheimer’s Disease（阿兹海默症）, 502–504
-Apparent Estimate of Performance（模型性能的显著评估）, 64, 65, 73,74, 143, 148
-Applicability Domain（模型应用域）, 535
-Bagging（装袋法）
-FDA（柔性判别分析）, 342–343
-Linear Regression（线性回归）, 194–195
-MARS（多元自适应回归样条）, 194–195
-Trees（树）, 192–195, 206, 221, 230,385–386, 453, 456, 537
-Bayes’ Rule（贝叶斯法则）, 250, 287–289, 300,301, 353–354
-Binning Data（数据封箱）, 49–50, 122,447–448, 531–534
-Binomial Distribution（二项分布）, 282–285,303, 333
-Biomarkers（生物标志物）, 502–503
-Bonferroni Correction（Bonferroni校正）, 499, 509
-Boosting（助推法）
-C5.0, 396–397
-Tree–Based Models（基于树的模型）, 79,203–208, 221, 230,389–392
-Bootstrap（Bootstrap方法）, 70, 72–73, 76, 78, 110,197, 264, 427, 428, 501
-Bagging（装袋法）, 192–194, 198
-Estimating Performance（模型性能评估）, 70,72–73, 76, 78, 110, 501
-Random Forests（随机森林）, 198–199
-Box–Cox Transformation（Box–Cox变换）, 32–33,38, 111
-C4.5, 377–383
-C5.0, 392–400, 432, 434, 454, 456
-Calibration Plot（校准图）, 249
-Case Studies（案例研究）
-Cell Segmentation（细胞分割）, 28–33,39–40, 43, 47, 468–470,476
-Cognitive Impairment（认知功能障碍）,502–510
-Compound Solubility（化合物溶解度）,102–105, 144–146, 149, 151, 157, 160, 186–192, 211–212, 221–223, 464–468, 488–490, 525–527, 532–533
-Concrete Strength（混凝土强度）, 196, 225–243
-Credit Scoring（信用评分）, 73–76, 251, 257, 262–264
-Customer Churn（客户流失）, 327–328, 411, 484
-Direct Marketing（直接营销）, 260–262, 442–443
-Fuel Economy（燃油经济性）, 19–24
-Grant Applications（拨款申请）, 275–282, 284–286, 293–294, 299, 303–306, 308, 336, 339–343, 349–350, 382–383, 385, 470–472
-Hepatic Injury（肝损伤）, 326–327, 366–367, 411–413
-Income Levels（收入水平）, 442
-Insurance Policies（保险契约）, 419–425, 425, 426, 428–429, 431–432, 433, 434
-Job Scheduling（作业调度）, 445–457
-Oil Types（油品类型）, 327, 367, 484
-Unwanted Side Effects（不良副作用）, 528–531
-Case Weights（样本权重）, 426–427
-Censored Data（删失数据）, 41
-Class Centroids（类别质心）, 49, 306–308
-Class Imbalance（类失衡）, 419–434
-Class Probabilities(类别概率), 247–254
-Alternate Cutoffs(可选界值), 423–426
-Equivocal Zone(模糊区域), 254
-Well–Calibrated(良好校准), 249–252,
-Classification(分类)
-Accuracy(准确性), 254
-Boundaries(边界), 62
-Classification Trees(分类树), 370–383
-Click Through Rate(点击率), 419
-Coefficient of Determination(拟合优度),95–97, 100
-Collinearity(共线性), 98, 110–111, 123,125, 127
-Committees(评判(模型组)), 210
-Confusion Matrix(混淆矩阵), 254, 456–457
-Correlation Matrix(相关矩阵), 45
-Correlation Plot(相关性图), 45
-Correlation–Based Feature Selection(基于相关性的特征选择), 493
-Cost–Sensitive Training(代价敏感训练), 429–434,452–456
-Customer Lifetime Value(客户终身价值), 248
-Data Pre–Processing(数据预处理), 27–49
-Centering(中心化), 30
-Imputation(插值), 42–43
-Scaling(尺度变换), 30
-Spatial Sign Transform(空间坐标变换), 34,336
-Data Reduction(数据归约), 35
-Data Splitting(数据分裂), 67–69, 279–282, 450
-Maximum Dissimilarity(最大相异度)
-Sampling(抽样), 68–69, 233
-Test Set(测试集), 67–69
-Training Set(训练集), 67
-Desirability Functions(满意度函数), 234–235
-Dummy Variables(虚拟变量), 47–48, 298,300, 372–373, 400
-Elastic Net(弹性网络), 126–128, 303
-Entropy(熵), 333, 378
-Event Prevalence(事件普遍度), 255, 258–259,
-354
-Experimental Design(实验设计), 225–227
-Gauge R&R Studies(可重复性与可复制性估计研究), 530–531
-Mixture Designs(混合效应设计), 226
-Response Surface Methodology(反应曲面法), 225
-Sequential Experimentation(序列实验),225
-Extrapolation(归纳法), 534–538
-False Positive Rate(假正率), 256
-Feature Engineering(特征工程), 27–28,276–277
-Feature Selection(特征选择)
-Backward Selection(反向优选算法), 494
-C5.0(Winnowing算法), 398–399
-Correlation–Based(基于相关性的选择), 493
-Filters(过滤器), 490, 499, 509–510
-Forward Selection(正向优选算法), 491–493
-Genetic Algorithms(基因算法),497–499
-Highly Correlated Predictors(高相关自变量),45–47, 277
-Intrinsic(内部变量选择), 487, 489
-lasso, 125, 303, 306
-Near–Zero Variance Predictors(低信息自变量), 44–45
-Nearest Shrunken Centroids(最近萎缩质心),307–308
-Recursive Feature Elimination(递归特征移除), 494–495,500–502, 504–507
-Selection Bias(选择偏差), 500–501
-Simulated Annealing(仿真退火(算法)),495–497
-Single Trees(单棵树), 180–181
-Sparse and Unbalanced Predictors(稀疏与不对称自变量), 44, 277–278
-Stepwise Selection(逐步筛选), 493, 494
-Supervised(监督), 487–510
-Unsupervised(无监督), 43–47, 278,299, 488
-Using MARS(使用MARS), 149
-Wrappers(包装(法)), 490–499
-Fisher’s Exact Test(Fish精确检验), 471, 472
-Flexible Discriminant Analysis(FDA)(柔性判别分析), 306, 338–343,420, 426, 453, 454
-Variable Importance(变量重要型), 343
-Fraud Prediction(欺诈检测), 248
-Generalized Additive Models(广义可加模型), 285
-Generalized Cross-Validation(GCV)(广义交互验证), 148
-Generalized Linear Models(广义线性模型), 284
-Genetic Algorithms(遗传算法), 497–499
-Genotype(基因型), 503–504
-Gini Index（基尼系数）, 370–374, 433
-glmnet, 303–305
-Graph Kernels（图形内核）, 349
-Heatmap（热图）, 251, 253
-Hidden Units（隐藏单元）, 141–143
-High Performance Computing（高速计算）,445
-High–Content Screening（高内涵筛选）, 29
-Hinge Functions（铰链损失函数）, 145, 338–339
-Huber Function（Huber损失函数）, 109, 151
-Hypothesis Testing（假设检验）, 285, 466–468,471–472, 491–494, 499,507
-Image Segmentation（图形分割）, 29
-Import Vector Machines（导入向量机）, 349
-Information Gain（信息增益）, 378, 379
-Information Theory（信息论）, 377–381
-Instance-Based Corrections（基于实例的校正）,210–211
-K–Nearest Neighbors（K-近邻）, 64
-Classification（~分类）, 64–65,350–352
-Imputation（~插补）, 42–43
-Regression（~回归）, 159–161
-Kappa Statistic（Kappa统计量）, 255–256,431–432, 434, 455, 533
-Kernel Functions（核函数）, 155–157, 347,349
-Laplace Correction（Laplace校正）, 357
-lasso, 124–126, 303–306, 306
-Least Angle Regression（最小角回归）, 126
-Least Squares Support Vector Machines（最小二乘向量机）, 349
-Leave–Group–Out Cross–Validation（留多交叉检验）, see Repeated Training/Test Splits
-Lift Charts（增益图）, 265–266, 421–423
-Linear Discriminant Analysis（线性判别分析）,287–297, 305–306, 453,454, 504, 505, 508–509
-Linear Regression（线性回归）, 20–24
-Locally Weighted Regression（局部加权回归）, 464–466
-Logistic Regression（Logistic回归）, 79, 250–252, 282–287, 420, 504
-Penalized（惩罚的~）, 302–305
-Margin（边缘）, 343–344
-Maximal Information Coefficient(MIC)（最大信息系数）, 466, 470, 476,477
-Maximum Likelihood Estimation（极大似然估计）,282–284
-Measurement Error（测量误差）, 524–531
-Measurement Systems Analysis（测量系统分析）,530–531
-Missing Values（缺失值）, 41–43, 277,380–382
-Informative（含信息的~）, 41
-Mixture Discriminant Analysis(MDA)（混合判别式分析）, 331–332
-Model Averaging（模型平滑）, 144, 335–336
-Model Parameter Tuning（模型参数调定）, 64–66
-Monte Carlo Cross–Validation（蒙特卡洛交互检验）, see RepeatedTraining/Test Splits
-Mosaic Plot（马赛克图）, 448, 450
-Multicollinearity（共线性）, 45–47
-Multiparameter Optimization（多参数优化）, 234
-Multiple Comparison Corrections（多重对比校正）, 182
-Multivariate Adaptive Regression Splines (MARS)（多远自适应回归样条法）, 79, 489
-Bagged（装袋）, 194–195
-Classification（~分类）, 338–339
-Pruning（剪枝）, 148
-Regression（~回归）, 22–24, 145–151
-Second Order Model（二阶模型）, 148
-Variable Importance（变量重要性）, 150
-Na¨ıve Bayes（朴素贝叶斯）, 79, 353–358, 505
-Napoleon Dynamite Effect（拿破仑炸药效应）, 41
-Near–Zero Variance Predictors（近零自变量）,44–45, 277, 285, 293
-Nearest Shrunken Centroids（最近质心收缩）,306–308
-Negative Predicted Value（负例预测概率）, 258
-Neisseria gonorrhoeae（淋球菌）, 259
-Nelder–Mead Simplex Method,（Nelder–Mead单纯形算法）233
-Neural Networks（神经网络）, 453, 456, 489
-Classification（~分类）, 333–336
-Early Stopping（早终止）, 143
-Hidden Units（隐藏单元）, 141–143
-Model Averaging（模型平滑）, 144,
-335–336
-Regression（~回归）, 141–145
-Weight Decay（权重衰减）, 143–144, 303,
-334–336
-No Information Rate, 255
-Non–Informative Predictors,487–490
-Odds（发生）, 283–285
-Odds–Ratio（发生比）, 470–472
-One-Standard Error Rule, 75
-Ordinary Least Squares Regression（最小二乘回归）, 105–112
-Outliers（离群点）, 33–34, 109, 151
-Over–Fitting（过度拟合）, 62–64, 280, 335,336, 347, 352, 372, 381,490, 493, 500, 501, 503
-Partial Least Squares（偏最小二乘）, 79
-Classification（~分类）, 297–302, 306,453, 454
-Kernel PLS（核偏最小二乘）, 121
-NIPALS（非线性迭代偏最小二乘算法）, 120
-Regression（~回归）, 112–122
-SIMPLS（简单偏最小二乘）, 121
-Performance Tolerance（性能容忍度）, 75
-Permutation Distribution（Permutation分布）,475–476
-Positive Predicted Value（正例预测概率）, 258
-Posterior Probability（后验概率）, 258, 287, 354
-Principal Component Analysis(PCA)（主成分分析）, 35–40, 105, 107, 113, 297, 536
-Principal Component Regression（主成分回归）, 113, 115–116, 118
-Principal Components（主成分）, 35
-Prior Probability（先验概率）, 255, 300, 354, 356, 426
-Pruning（剪枝）
-C4.5, 381
-Cubist, 209, 210
-MARS, 148
-Model Trees（模型树）, 186
-Quadratic Discriminant Analysis(QDA)（二次判别分析）, 330
-R^2, 95–97
-Random Forest（随机森林）, 79, 420, 428, 453,456–457, 489, 504, 505,508–509
-Rank Correlation（秩相关）, 97, 100
-Receiver Operating Characteristic(ROC) Curve（接受者操作特征曲线）, 257,262–264, 421–425,468–470, 476
-Recursive Feature Elimination（递归特征移除）,494–495, 500–502,504–508
-Regularization（正则化）, 122–128, 143–144,153, 302–306, 346–347
-Regularized Discriminant Analysis (RDA)（正则化判别分析）, 330–331
-Relevance Vector Machines（相关向量机）,157–159, 349
-Relief Scores（舒缓分数）, 470, 472–476
-Resampling（重抽样）, 69–73
-k–Fold Cross–Validation（K折交叉检验）, 21,69
-Bootstrap, 70, 72–73, 76, 78,110, 501
-Bootstrap 632 Method（Bootstrap法）, 73
-For Comparing Models（对照模型）,79–80
-Leave-One-Out Cross–Validation（留一交叉检验）, 70
-Out-of-Bag Estimate（掉袋估计）, 197,200
-Pitfalls（陷阱）, 500–501
-Repeated Cross–Validation（重复交叉检验）,70, 452
-Repeated Training/Test（重复训练/测试）
-Splits（分裂）, 71
-Stratified Cross–Validation（分层交叉检验）,70
-Residuals（残差）, 95, 97, 101, 108, 109,112, 117, 119, 143,151–153, 156, 204–206,209, 230, 232, 282, 524
-Restricted Cubic Splines（限制性立方样条）, 285
-Ridge Regression（岭回归）, 123–124, 303
-Robust Regression（稳健回归）, 109, 151–153
-Root Mean Squared Error(RMSE)（均方根误差）, 95
-Rule–Based Models（基于规则的模型）
-C4.5Rules（C4.5规则）, 383–384
-C5.0, 395–396
-Classification Model Rules（分类模型规则）,383–385
-Cubist, 208–212
-PART, 385
-Regression Model Rules（回归模型规则）,190–192, 211–212
-Sampling（抽样）, 427–429
-Down–Sampling（降抽样）, 427–429
-Synthetic Minority Over-sampling TEchnique (SMOTE)（少数类过采样技术）, 428–429
-Up–Sampling（升采样）, 427, 429
-Selection Bias（选择偏倚）, 149, 299, 500–501
-Sensitivity（敏感度）, 256, 421, 423–425,432, 433
-Shrinkage（收缩）, see Regularization
-Simulated Annealing（模拟退火法）, 233,495–497
-Skewness（偏度）, 31–33, 104, 105, 111,458
-Softmax Transformation（Softmax变换）, 248,300
-Specificity（特异度）, 256, 421, 423
-Stochastic Gradient Boosting（随机梯度助推法）,206, 391
-String Kernels（字符串核函数）, 349
-Supervised Methods（监督方法）, 27, 115
-Support Vector Machines（支持向量机）, 79,280–281, 490, 500, 505
-Class Weights（类别权重）, 431–432,453–456
-Classification（~分类）, 343–350
-Kernels（核）, 155–157, 347, 349
-Over–Fitting（过度拟合）, 65
-Regression（~回归）, 151–157
-Tuning（~调优）, 74
-Support Vectors（支持向量）, 155, 155, 345
-Systemic Inflammatory ResponseSyndrome (SIRS)（全身炎症反应综合症）, 49
-Table Plot（表图）, 448, 451
-Tree–Based Models（基于树的模型）
-Bagged（装袋法）, 192–194, 385–386,453, 456
-Boosting（助推法）, 203–208, 221, 230,389–392, 396–397
-C4.5, 377–383
-C5.0, 394–395, 400, 432, 434,454, 456
-Classification（~分类）, 370–383
-Classification and Regression Trees（分类树与回归树）, 370–377, 453, 454,456–457
-Cost–Complexity Pruning（成本-复杂剪枝法）,177–178, 372
-Cost–Sensitive（成本敏感~）, 432–434, 455,456
-Generalized, Unbiased, Interaction Detection and Estimation(GUIDE)（GUIDE算法）, 182
-Model Trees（模型树）, 184–190
-One-Standard Error Rule（一个标准差规则）,178
-Pessimistic Pruning（悲观剪枝）, 381
-Random Forest（随机森林）, 198–203,386–389, 453, 456–457,489, 504, 505, 508–509
-Regression（回归）, 175–183
-Selection Bias（选择偏倚）, 182–183
-Smoothing（平滑）, 185–186, 209
-Tuning Parameters（参数调优）, 22–23, 65
-Type III Error（第III类错误）, 522–524
-Ultimate Answer to the Ultimate Question of Life, The Universe, and Everything（生命、宇宙以及一切的终极答案）, 42
-Unsupervised Methods（无监督方法）, 27, 115,278, 299, 488
-Uplift Modeling（Uplift建模）, 522–524
-Variable Importance（变量重要性）, 463–477,505
-Bagged Trees（Bagged树）, 198
-Boosted Trees（Boosted树）, 207–208
-C5.0, 398
-Cubist, 212–213
-Logistic Regression(Logistic回归), 286
-MARS（多元自适应回归样条）, 150
-Maximal Information Coefficient (MIC)（最大信息系数）, 466,470, 476–477
-Partial Least Squares（偏最小二乘）,118–120, 302
-Random Forest（随机森林）, 201–203, 464
-Relief Scores（舒缓分数）, 470, 472–476
-Single Trees（单棵树）, 180–182
-Variable Selection（变量选择）, 见 特征选择
-Variance Inflation Factors (VIF)（方差膨胀因子）,47
-Variance–Bias Tradeoff（方差与变异权衡）, 97–98,122–123, 192, 194
-Winnowing（Winnowing算法）, 398–399
-Youden Index（约登指数）, 424
-Zero Variance Predictors（零方差预测变量）, 44
 
+-Insensitive Regression（
+
+-不敏感回归）, 151
+
+Active Learning（主动学习）, 226
+
+Additive Models（可加模型）, 148, 150–152,205, 285, 338, 341, 342,421
+
+Akaike Information Criterion（AIC准则）, 493
+
+Alzheimer’s Disease（阿兹海默症）, 502–504
+
+Apparent Estimate of Performance（模型性能的显著评估）, 64, 65, 73,74, 143, 148
+
+Applicability Domain（模型应用域）, 535
+
+Bagging（装袋法）
+
+FDA（柔性判别分析）, 342–343
+
+Linear Regression（线性回归）, 194–195
+
+MARS（多元自适应回归样条）, 194–195
+
+Trees（树）, 192–195, 206, 221, 230,385–386, 453, 456, 537
+
+Bayes’ Rule（贝叶斯法则）, 250, 287–289, 300,301, 353–354
+
+Binning Data（数据封箱）, 49–50, 122,447–448, 531–534
+
+Binomial Distribution（二项分布）, 282–285,303, 333
+
+Biomarkers（生物标志物）, 502–503
+
+Bonferroni Correction（Bonferroni校正）, 499, 509
+
+Boosting（助推法）
+
+C5.0, 396–397
+
+Tree–Based Models（基于树的模型）, 79,203–208, 221, 230,389–392
+
+Bootstrap（Bootstrap方法）, 70, 72–73, 76, 78, 110,197, 264, 427, 428, 501
+
+Bagging（装袋法）, 192–194, 198
+
+Estimating Performance（模型性能评估）, 70,72–73, 76, 78, 110, 501
+
+Random Forests（随机森林）, 198–199
+
+Box–Cox Transformation（Box–Cox变换）, 32–33,38, 111
+
+C4.5, 377–383
+
+C5.0, 392–400, 432, 434, 454, 456
+
+Calibration Plot（校准图）, 249
+
+Case Studies（案例研究）
+
+Cell Segmentation（细胞分割）, 28–33,39–40, 43, 47, 468–470,476
+
+Cognitive Impairment（认知功能障碍）,502–510
+
+Compound Solubility（化合物溶解度）,102–105, 144–146, 149, 151, 157, 160, 186–192, 211–212, 221–223, 464–468, 488–490, 525–527, 532–533
+
+Concrete Strength（混凝土强度）, 196, 225–243
+
+Credit Scoring（信用评分）, 73–76, 251, 257, 262–264
+
+Customer Churn（客户流失）, 327–328, 411, 484
+
+Direct Marketing（直接营销）, 260–262, 442–443
+
+Fuel Economy（燃油经济性）, 19–24
+
+Grant Applications（拨款申请）, 275–282, 284–286, 293–294, 299, 303–306, 308, 336, 339–343, 349–350, 382–383, 385, 470–472
+
+Hepatic Injury（肝损伤）, 326–327, 366–367, 411–413
+
+Income Levels（收入水平）, 442
+
+Insurance Policies（保险契约）, 419–425, 425, 426, 428–429, 431–432, 433, 434
+
+Job Scheduling（作业调度）, 445–457
+
+Oil Types（油品类型）, 327, 367, 484
+
+Unwanted Side Effects（不良副作用）, 528–531
+
+Case Weights（样本权重）, 426–427
+
+Censored Data（删失数据）, 41
+
+Class Centroids（类别质心）, 49, 306–308
+
+Class Imbalance（类失衡）, 419–434
+
+Class Probabilities(类别概率), 247–254
+
+Alternate Cutoffs(可选界值), 423–426
+
+Equivocal Zone(模糊区域), 254
+
+Well–Calibrated(良好校准), 249–252,
+
+Classification(分类)
+
+Accuracy(准确性), 254
+
+Boundaries(边界), 62
+
+Classification Trees(分类树), 370–383
+
+Click Through Rate(点击率), 419
+
+Coefficient of Determination(拟合优度),95–97, 100
+
+Collinearity(共线性), 98, 110–111, 123,125, 127
+
+Committees(评判(模型组)), 210
+
+Confusion Matrix(混淆矩阵), 254, 456–457
+
+Correlation Matrix(相关矩阵), 45
+
+Correlation Plot(相关性图), 45
+
+Correlation–Based Feature Selection(基于相关性的特征选择), 493
+
+Cost–Sensitive Training(代价敏感训练), 429–434,452–456
+
+Customer Lifetime Value(客户终身价值), 248
+
+Data Pre–Processing(数据预处理), 27–49
+
+Centering(中心化), 30
+
+Imputation(插值), 42–43
+
+Scaling(尺度变换), 30
+
+Spatial Sign Transform(空间坐标变换), 34,336
+
+Data Reduction(数据归约), 35
+
+Data Splitting(数据分裂), 67–69, 279–282, 450
+
+Maximum Dissimilarity(最大相异度)
+
+Sampling(抽样), 68–69, 233
+
+Test Set(测试集), 67–69
+
+Training Set(训练集), 67
+
+Desirability Functions(满意度函数), 234–235
+
+Dummy Variables(虚拟变量), 47–48, 298,300, 372–373, 400
+
+Elastic Net(弹性网络), 126–128, 303
+
+Entropy(熵), 333, 378
+
+Event Prevalence(事件普遍度), 255, 258–259,
+
+354
+
+Experimental Design(实验设计), 225–227
+
+Gauge R&R Studies(可重复性与可复制性估计研究), 530–531
+
+Mixture Designs(混合效应设计), 226
+
+Response Surface Methodology(反应曲面法), 225
+
+Sequential Experimentation(序列实验),225
+
+Extrapolation(归纳法), 534–538
+
+False Positive Rate(假正率), 256
+
+Feature Engineering(特征工程), 27–28,276–277
+
+Feature Selection(特征选择)
+
+Backward Selection(反向优选算法), 494
+
+C5.0(Winnowing算法), 398–399
+
+Correlation–Based(基于相关性的选择), 493
+
+Filters(过滤器), 490, 499, 509–510
+
+Forward Selection(正向优选算法), 491–493
+
+Genetic Algorithms(基因算法),497–499
+
+Highly Correlated Predictors(高相关自变量),45–47, 277
+
+Intrinsic(内部变量选择), 487, 489
+
+lasso, 125, 303, 306
+
+Near–Zero Variance Predictors(低信息自变量), 44–45
+
+Nearest Shrunken Centroids(最近萎缩质心),307–308
+
+Recursive Feature Elimination(递归特征移除), 494–495,500–502, 504–507
+
+Selection Bias(选择偏差), 500–501
+
+Simulated Annealing(仿真退火(算法)),495–497
+
+Single Trees(单棵树), 180–181
+
+Sparse and Unbalanced Predictors(稀疏与不对称自变量), 44, 277–278
+
+Stepwise Selection(逐步筛选), 493, 494
+
+Supervised(监督), 487–510
+
+Unsupervised(无监督), 43–47, 278,299, 488
+
+Using MARS(使用MARS), 149
+
+Wrappers(包装(法)), 490–499
+
+Fisher’s Exact Test(Fish精确检验), 471, 472
+
+Flexible Discriminant Analysis(FDA)(柔性判别分析), 306, 338–343,420, 426, 453, 454
+
+Variable Importance(变量重要型), 343
+
+Fraud Prediction(欺诈检测), 248
+
+Generalized Additive Models(广义可加模型), 285
+
+Generalized Cross-Validation(GCV)(广义交互验证), 148
+
+Generalized Linear Models(广义线性模型), 284
+
+Genetic Algorithms(遗传算法), 497–499
+
+Genotype(基因型), 503–504
+
+Gini Index（基尼系数）, 370–374, 433
+
+glmnet, 303–305
+
+Graph Kernels（图形内核）, 349
+
+Heatmap（热图）, 251, 253
+
+Hidden Units（隐藏单元）, 141–143
+
+High Performance Computing（高速计算）,445
+
+High–Content Screening（高内涵筛选）, 29
+
+Hinge Functions（铰链损失函数）, 145, 338–339
+
+Huber Function（Huber损失函数）, 109, 151
+
+Hypothesis Testing（假设检验）, 285, 466–468,471–472, 491–494, 499,507
+
+Image Segmentation（图形分割）, 29
+
+Import Vector Machines（导入向量机）, 349
+
+Information Gain（信息增益）, 378, 379
+
+Information Theory（信息论）, 377–381
+
+Instance-Based Corrections（基于实例的校正）,210–211
+
+K–Nearest Neighbors（K-近邻）, 64
+
+Classification（~分类）, 64–65,350–352
+
+Imputation（~插补）, 42–43
+
+Regression（~回归）, 159–161
+
+Kappa Statistic（Kappa统计量）, 255–256,431–432, 434, 455, 533
+
+Kernel Functions（核函数）, 155–157, 347,349
+
+Laplace Correction（Laplace校正）, 357
+
+lasso, 124–126, 303–306, 306
+
+Least Angle Regression（最小角回归）, 126
+
+Least Squares Support Vector Machines（最小二乘向量机）, 349
+
+Leave–Group–Out Cross–Validation（留多交叉检验）, see Repeated Training/Test Splits
+
+Lift Charts（增益图）, 265–266, 421–423
+
+Linear Discriminant Analysis（线性判别分析）,287–297, 305–306, 453,454, 504, 505, 508–509
+
+Linear Regression（线性回归）, 20–24
+
+Locally Weighted Regression（局部加权回归）, 464–466
+
+Logistic Regression（Logistic回归）, 79, 250–252, 282–287, 420, 504
+
+Penalized（惩罚的~）, 302–305
+
+Margin（边缘）, 343–344
+
+Maximal Information Coefficient(MIC)（最大信息系数）, 466, 470, 476,477
+
+Maximum Likelihood Estimation（极大似然估计）,282–284
+
+Measurement Error（测量误差）, 524–531
+
+Measurement Systems Analysis（测量系统分析）,530–531
+
+Missing Values（缺失值）, 41–43, 277,380–382
+
+Informative（含信息的~）, 41
+
+Mixture Discriminant Analysis(MDA)（混合判别式分析）, 331–332
+
+Model Averaging（模型平滑）, 144, 335–336
+
+Model Parameter Tuning（模型参数调定）, 64–66
+
+Monte Carlo Cross–Validation（蒙特卡洛交互检验）, see RepeatedTraining/Test Splits
+
+Mosaic Plot（马赛克图）, 448, 450
+
+Multicollinearity（共线性）, 45–47
+
+Multiparameter Optimization（多参数优化）, 234
+
+Multiple Comparison Corrections（多重对比校正）, 182
+
+Multivariate Adaptive Regression Splines (MARS)（多远自适应回归样条法）, 79, 489
+
+Bagged（装袋）, 194–195
+
+Classification（~分类）, 338–339
+
+Pruning（剪枝）, 148
+
+Regression（~回归）, 22–24, 145–151
+
+Second Order Model（二阶模型）, 148
+
+Variable Importance（变量重要性）, 150
+
+Na¨ıve Bayes（朴素贝叶斯）, 79, 353–358, 505
+
+Napoleon Dynamite Effect（拿破仑炸药效应）, 41
+
+Near–Zero Variance Predictors（近零自变量）,44–45, 277, 285, 293
+
+Nearest Shrunken Centroids（最近质心收缩）,306–308
+
+Negative Predicted Value（负例预测概率）, 258
+
+Neisseria gonorrhoeae（淋球菌）, 259
+
+Nelder–Mead Simplex Method,（Nelder–Mead单纯形算法）233
+
+Neural Networks（神经网络）, 453, 456, 489
+
+Classification（~分类）, 333–336
+
+Early Stopping（早终止）, 143
+
+Hidden Units（隐藏单元）, 141–143
+
+Model Averaging（模型平滑）, 144,
+
+335–336
+
+Regression（~回归）, 141–145
+
+Weight Decay（权重衰减）, 143–144, 303,
+
+334–336
+
+No Information Rate, 255
+
+Non–Informative Predictors,487–490
+
+Odds（发生）, 283–285
+
+Odds–Ratio（发生比）, 470–472
+
+One-Standard Error Rule, 75
+
+Ordinary Least Squares Regression（最小二乘回归）, 105–112
+
+Outliers（离群点）, 33–34, 109, 151
+
+Over–Fitting（过度拟合）, 62–64, 280, 335,336, 347, 352, 372, 381,490, 493, 500, 501, 503
+
+Partial Least Squares（偏最小二乘）, 79
+
+Classification（~分类）, 297–302, 306,453, 454
+
+Kernel PLS（核偏最小二乘）, 121
+
+NIPALS（非线性迭代偏最小二乘算法）, 120
+
+Regression（~回归）, 112–122
+
+SIMPLS（简单偏最小二乘）, 121
+
+Performance Tolerance（性能容忍度）, 75
+
+Permutation Distribution（Permutation分布）,475–476
+
+Positive Predicted Value（正例预测概率）, 258
+
+Posterior Probability（后验概率）, 258, 287, 354
+
+Principal Component Analysis(PCA)（主成分分析）, 35–40, 105, 107, 113, 297, 536
+
+Principal Component Regression（主成分回归）, 113, 115–116, 118
+
+Principal Components（主成分）, 35
+
+Prior Probability（先验概率）, 255, 300, 354, 356, 426
+
+Pruning（剪枝）
+
+C4.5, 381
+
+Cubist, 209, 210
+
+MARS, 148
+
+Model Trees（模型树）, 186
+
+Quadratic Discriminant Analysis(QDA)（二次判别分析）, 330
+
+, 95–97
+
+Random Forest（随机森林）, 79, 420, 428, 453,456–457, 489, 504, 505,508–509
+
+Rank Correlation（秩相关）, 97, 100
+
+Receiver Operating Characteristic(ROC) Curve（接受者操作特征曲线）, 257,262–264, 421–425,468–470, 476
+
+Recursive Feature Elimination（递归特征移除）,494–495, 500–502,504–508
+
+Regularization（正则化）, 122–128, 143–144,153, 302–306, 346–347
+
+Regularized Discriminant Analysis (RDA)（正则化判别分析）, 330–331
+
+Relevance Vector Machines（相关向量机）,157–159, 349
+
+Relief Scores（舒缓分数）, 470, 472–476
+
+Resampling（重抽样）, 69–73
+
+k–Fold Cross–Validation（K折交叉检验）, 21,69
+
+Bootstrap, 70, 72–73, 76, 78,110, 501
+
+Bootstrap 632 Method（Bootstrap法）, 73
+
+For Comparing Models（对照模型）,79–80
+
+Leave-One-Out Cross–Validation（留一交叉检验）, 70
+
+Out-of-Bag Estimate（掉袋估计）, 197,200
+
+Pitfalls（陷阱）, 500–501
+
+Repeated Cross–Validation（重复交叉检验）,70, 452
+
+Repeated Training/Test（重复训练/测试）
+
+Splits（分裂）, 71
+
+Stratified Cross–Validation（分层交叉检验）,70
+
+Residuals（残差）, 95, 97, 101, 108, 109,112, 117, 119, 143,151–153, 156, 204–206,209, 230, 232, 282, 524
+
+Restricted Cubic Splines（限制性立方样条）, 285
+
+Ridge Regression（岭回归）, 123–124, 303
+
+Robust Regression（稳健回归）, 109, 151–153
+
+Root Mean Squared Error(RMSE)（均方根误差）, 95
+
+Rule–Based Models（基于规则的模型）
+
+C4.5Rules（C4.5规则）, 383–384
+
+C5.0, 395–396
+
+Classification Model Rules（分类模型规则）,383–385
+
+Cubist, 208–212
+
+PART, 385
+
+Regression Model Rules（回归模型规则）,190–192, 211–212
+
+Sampling（抽样）, 427–429
+
+Down–Sampling（降抽样）, 427–429
+
+Synthetic Minority Over-sampling TEchnique (SMOTE)（少数类过采样技术）, 428–429
+
+Up–Sampling（升采样）, 427, 429
+
+Selection Bias（选择偏倚）, 149, 299, 500–501
+
+Sensitivity（敏感度）, 256, 421, 423–425,432, 433
+
+Shrinkage（收缩）, see Regularization
+
+Simulated Annealing（模拟退火法）, 233,495–497
+
+Skewness（偏度）, 31–33, 104, 105, 111,458
+
+Softmax Transformation（Softmax变换）, 248,300
+
+Specificity（特异度）, 256, 421, 423
+
+Stochastic Gradient Boosting（随机梯度助推法）,206, 391
+
+String Kernels（字符串核函数）, 349
+
+Supervised Methods（监督方法）, 27, 115
+
+Support Vector Machines（支持向量机）, 79,280–281, 490, 500, 505
+
+Class Weights（类别权重）, 431–432,453–456
+
+Classification（~分类）, 343–350
+
+Kernels（核）, 155–157, 347, 349
+
+Over–Fitting（过度拟合）, 65
+
+Regression（~回归）, 151–157
+
+Tuning（~调优）, 74
+
+Support Vectors（支持向量）, 155, 155, 345
+
+Systemic Inflammatory ResponseSyndrome (SIRS)（全身炎症反应综合症）, 49
+
+Table Plot（表图）, 448, 451
+
+Tree–Based Models（基于树的模型）
+
+Bagged（装袋法）, 192–194, 385–386,453, 456
+
+Boosting（助推法）, 203–208, 221, 230,389–392, 396–397
+
+C4.5, 377–383
+
+C5.0, 394–395, 400, 432, 434,454, 456
+
+Classification（~分类）, 370–383
+
+Classification and Regression Trees（分类树与回归树）, 370–377, 453, 454,456–457
+
+Cost–Complexity Pruning（成本-复杂剪枝法）,177–178, 372
+
+Cost–Sensitive（成本敏感~）, 432–434, 455,456
+
+Generalized, Unbiased, Interaction Detection and Estimation(GUIDE)（GUIDE算法）, 182
+
+Model Trees（模型树）, 184–190
+
+One-Standard Error Rule（一个标准差规则）,178
+
+Pessimistic Pruning（悲观剪枝）, 381
+
+Random Forest（随机森林）, 198–203,386–389, 453, 456–457,489, 504, 505, 508–509
+
+Regression（回归）, 175–183
+
+Selection Bias（选择偏倚）, 182–183
+
+Smoothing（平滑）, 185–186, 209
+
+Tuning Parameters（参数调优）, 22–23, 65
+
+Type III Error（第III类错误）, 522–524
+
+Ultimate Answer to the Ultimate Question of Life, The Universe, and Everything（生命、宇宙以及一切的终极答案）, 42
+
+Unsupervised Methods（无监督方法）, 27, 115,278, 299, 488
+
+Uplift Modeling（Uplift建模）, 522–524
+
+Variable Importance（变量重要性）, 463–477,505
+
+Bagged Trees（Bagged树）, 198
+
+Boosted Trees（Boosted树）, 207–208
+
+C5.0, 398
+
+Cubist, 212–213
+
+Logistic Regression(Logistic回归), 286
+
+MARS（多元自适应回归样条）, 150
+
+Maximal Information Coefficient (MIC)（最大信息系数）, 466,470, 476–477
+
+Partial Least Squares（偏最小二乘）,118–120, 302
+
+Random Forest（随机森林）, 201–203, 464
+
+Relief Scores（舒缓分数）, 470, 472–476
+
+Single Trees（单棵树）, 180–182
+
+Variable Selection（变量选择）, 见 特征选择
+
+Variance Inflation Factors (VIF)（方差膨胀因子）,47
+
+Variance–Bias Tradeoff（方差与变异权衡）, 97–98,122–123, 192, 194
+
+Winnowing（Winnowing算法）, 398–399
+
+Youden Index（约登指数）, 424
+
+Zero Variance Predictors（零方差预测变量）, 44
